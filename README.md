@@ -11,11 +11,12 @@ Assignment details [here](https://cs50.harvard.edu/web/2020/projects/3/mail/).
 * Inside the **”Sent”** mailbox, the user will find all composed e-mails after sending.
 * The “Archived” mailbox contains all archived-flagged mail.
 
-* In the section **Compose** the user may write and send e-mails.
-* **Unread** e-mails are marked white and change to grey after opening.
-* Opened e-mails have two buttons: “Archive” and “Reply”.
-* **Archive** flags an e-mail as “archived” and moves it to the “Archived Mailbox”.
-* **Reply** allows users to reply to e-mails, prefilling the *Subject*, *Recipient* and *Body*.
+In the section **Compose** the user may write and send e-mails.
+* **"Unread"** e-mails are marked white and change to grey after opening.
+
+Opened e-mails have two buttons: “Archive” and “Reply”:
+** **"Archive"** flags an e-mail as “archived” and moves it to the “Archived Mailbox”.
+** **"Reply"** allows users to reply to e-mails, prefilling the *Subject*, *Recipient* and *Body*.
 
 ## Technical Description
 Django handles all server request and the database (written in Python). The distribution code includes already most python code to run this project. The assignment was solely focused on writing client-side server-requests in JavaScript and server-responses in Python, such that the client is able to asynchronously request and receive data which is then rendered in the browser.
@@ -29,4 +30,4 @@ Click [here](https://youtu.be/VpAb0k-PE40) to watch a demonstration of this proj
 
 ## Distribution Code 
 [Distribution Code](https://cdn.cs50.net/web/2020/spring/projects/3/mail.zip). 
-All further requirements and terminal commands to run this project are found on the [Project Assignment Page]( https://cs50.harvard.edu/web/2020/projects/3/mail/
+All further requirements and terminal commands to run this project are found on the [Project Assignment Page](https://cs50.harvard.edu/web/2020/projects/3/mail/)
