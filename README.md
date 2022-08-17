@@ -15,8 +15,8 @@ In the section **Compose** the user may write and send e-mails.
 * **"Unread"** e-mails are marked white and change to grey after opening.
 
 Opened e-mails have two buttons: “Archive” and “Reply”:
-** **"Archive"** flags an e-mail as “archived” and moves it to the “Archived Mailbox”.
-** **"Reply"** allows users to reply to e-mails, prefilling the *Subject*, *Recipient* and *Body*.
+* **"Archive"** flags an e-mail as “archived” and moves it to the “Archived Mailbox”.
+* **"Reply"** allows users to reply to e-mails, prefilling the *Subject*, *Recipient* and *Body*.
 
 ## Technical Description
 Django handles all server request and the database (written in Python). The distribution code includes already most python code to run this project. The assignment was solely focused on writing client-side server-requests in JavaScript and server-responses in Python, such that the client is able to asynchronously request and receive data which is then rendered in the browser.
